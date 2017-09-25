@@ -1,0 +1,3 @@
+[submodule "src/ebutterfly-sdm"]
+	path = src/ebutterfly-sdm
+	url = https://github.com/jcoliver/ebutterfly-sdm
