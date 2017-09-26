@@ -4,6 +4,16 @@
 A [Dockerized](https://www.docker.com/what-docker) implementation of the [eButterfly SDM](https://github.com/jcoliver/ebutterfly-sdm)
 
 ## Usage
+Clone the repo, *including the submodules*.
+
+```
+[~]$ git clone --recursive https://github.com/asherkhb/butterfly-sdm
+-or-
+[~]$ git clone https://github.com/asherkhb/butterfly-sdm
+[~]$ cd butterfly-sdm
+[~/butterfly-sdm]$ git submodule update --init --recursive
+```
+
 Use the Dockerfile to build the Docker image.
 
 ```
