@@ -2,7 +2,7 @@
 
 if [ -z "$1" ]; then
 	echo "Please specify a taxon ID.";
-elif ["$1" == "help" ]; then
+elif [ "$1" == "help" ]; then
 	echo "Please specify a taxon ID.";
 else
 	echo "Executing model for" $1;
